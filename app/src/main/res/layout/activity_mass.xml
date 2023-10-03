@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mass"
+    android:orientation="vertical"
+    android:background="@drawable/bgmass">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MASS"
+        android:textSize="40dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/kgtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/kg_converter"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="CONVERT TO GRAM"/>
+
+    <TextView
+        android:id="@+id/kg_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="280dp">
+
+        <ImageView
+            android:id="@+id/km"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/lengthslogo2"/>
+
+        <ImageView
+            android:id="@+id/temp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/templogo2"/>
+
+        <ImageView
+            android:id="@+id/time"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/timelogo2"/>
+
+    </LinearLayout>
+</LinearLayout>
